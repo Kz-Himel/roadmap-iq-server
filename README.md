@@ -1,4 +1,4 @@
-# 🚀 CareerPilot AI - Server
+# 🚀 RoadmapIQ - Server
 
 Backend API for CareerPilot AI built with Express.js, TypeScript, MongoDB, Better Auth, and Groq AI.
 
