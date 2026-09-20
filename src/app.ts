@@ -7,6 +7,7 @@ import chatRoutes from "./routes/chat.routes.js";
 import roadmapRoutes from "./routes/roadmap.routes.js";
 import dashboardRoutes from "./routes/dashboard.routes.js";
 import savedGoalsRoutes from "./routes/savedGoals.routes.js";
+import questionBankRoutes from "./routes/questionBank.routes.js";
 
 
 const app = express();
@@ -39,6 +40,7 @@ app.use("/chat", chatRoutes);
 app.use("/roadmaps", roadmapRoutes);
 app.use("/dashboard", dashboardRoutes);
 app.use("/saved-goals", savedGoalsRoutes);
+app.use("/questions", questionBankRoutes);
 
 
 export default app;
