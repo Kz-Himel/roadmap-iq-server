@@ -9,14 +9,15 @@ import dashboardRoutes from "./routes/dashboard.routes.js";
 import savedGoalsRoutes from "./routes/savedGoals.routes.js";
 import questionBankRoutes from "./routes/questionBank.routes.js";
 import interviewRoutes from "./routes/interview.routes.js";
+import platformRoutes from "./routes/platform.routes.js";
 
 
 const app = express();
 
 
 const allowedOrigins = [
-    "http://localhost:3000",
-    process.env.CLIENT_URL
+    process.env.CLIENT_URL,
+    "http://localhost:3000"
 ].filter((origin): origin is string => Boolean(origin));
 
 
@@ -43,6 +44,7 @@ app.use("/dashboard", dashboardRoutes);
 app.use("/saved-goals", savedGoalsRoutes);
 app.use("/questions", questionBankRoutes);
 app.use("/interview", interviewRoutes);
+app.use("/platform", platformRoutes);
 
 
 export default app;
