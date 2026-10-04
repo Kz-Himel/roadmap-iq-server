@@ -79,13 +79,13 @@ GROQ_API_KEY=
 Clone Repository
 
 ```bash
-git clone https://github.com/your-username/careerpilot-server.git
+git clone https://github.com/your-username/roadmapiq-server.git
 ```
 
 Go to Project
 
 ```bash
-cd careerpilot-server
+cd roadmapiq-server
 ```
 
 Install Packages
