@@ -1,14 +1,14 @@
 # 🚀 RoadmapIQ - Server
 
-Backend API for CareerPilot AI built with Express.js, TypeScript, MongoDB, Better Auth, and Groq AI.
+Backend API for Roadmap IQ built with Express.js, TypeScript, MongoDB, Better Auth, and Groq AI.
 
 ---
 
-Frontend: https: //careerpilot-client-kzhimel.vercel.app/  
+Frontend: https: //roadmapiq-client-kzhimel.vercel.app/  
 
-Client repo: https: //github.com/Kz-Himel/careerpilot-client  
+Client repo: https: //github.com/Kz-Himel/roadmapiq-client  
 
-Backend API: https: //careerpilot-server-kzhimel.vercel.app/  
+Backend API: https: //roadmapiq-server-kzhimel.vercel.app/  
 
 ---
 
